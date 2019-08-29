@@ -1,0 +1,113 @@
+@media screen and (max-width: 1024px){
+	nav{
+		display: none;
+	}
+	.logo_bar{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.menu_icon{
+		display: block;
+		background: #00897b;
+		border: none;
+		font-size: 25px;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		border-radius: 3px;
+	}
+	.menu_icon:focus{
+		outline: none;
+	}
+	.filter > div{
+	padding-right: 7px;
+	padding-left: 7px;
+	}
+	.blog {
+	margin-top: 20px;
+	}
+	.blog div{
+	margin-top: 0;
+	margin-bottom: 20px;
+	}
+	.blog a{
+	color: #00897b;
+	}
+	.footer input, .footer textarea{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.header{
+		padding: 20px;
+	}
+	.header__title{
+		font-size: 45px;
+	}
+	.header__text{
+		margin-bottom: 20px;
+	}
+	.button{
+		margin-bottom: 10px;
+	}
+	.about{
+		padding: 20px;
+	}
+	.about__text{
+		margin-bottom: 20px;
+	}
+	h3.about_h3{
+		margin-top: 20px;
+	}
+	.services{
+		padding: 20px;
+	}
+	.portfolio{
+		padding: 20px;
+	}
+	.filter{
+		padding: 20px;
+	}
+	.pricing{
+		padding: 20px;
+	}
+	.price__footer{
+		padding: 20px;
+	}
+	.team{
+		padding: 20px 0;
+	}
+	.multiple-items{
+		margin-top: 10px;
+	}
+	.team img{
+		max-width: 280px;
+	}
+	.dots-style {
+    margin-top: 10px;
+	}
+	.left, .right{
+		flex-direction: column;
+	}
+	.right > div:first-child{
+		order:1;
+	}
+	.right > div:last-child{
+		order:2;
+	}
+	.blog i {
+    margin-right: 5px;
+	}
+	.button_blog{
+		margin-top:10px;
+	}
+	.footer{
+		padding: 20px;
+	}
+	.form{
+		margin-top: 20px;
+	}
+}
